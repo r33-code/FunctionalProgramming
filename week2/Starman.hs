@@ -18,6 +18,7 @@ It would involve generating a random number i and read in the ith word from
 --module Starman where
 
 {-| 
+
     check function
 -}
 check :: String -> String -> Char -> (Bool, String)
