@@ -1,3 +1,4 @@
+module Starman where
 {-|
 Module      : starman
 Description : A guess character game
@@ -9,16 +10,12 @@ Portability : POSIX
 
 A guess character @game@.
 
-TODO: 
-Generate a random word from a list of words or a dictionary file. 
-It would involve generating a random number i and read in the ith word from
- a dictionary. You might import System.Random
 -}
 
---module Starman where
+import System.IO
+import System.Random
 
 {-| 
-
     check function
 -}
 check :: String -> String -> Char -> (Bool, String)
@@ -54,9 +51,33 @@ mkguess word display n =
         let n' = if correct then n else n-1
         turn word display' n'
 
+{-
+    splitByChar function
+-}
+splitByChar :: String -> Char -> [String]
+splitByChar "" _ = []
+splitByChar xxs@(x:xs) c 
+       | x == c      = splitByChar xs c
+       | otherwise   = fst(break (== c) xxs) : splitByChar (snd(break (== c) xxs)) c
+
+
 {-|
     starman function
+
+    The word is selected randomly from a dictionary text file and
+    the number of attempts is selected randomly according the lenght of the chosen word.
 -}
 starman :: String -> Int -> IO()
-starman word n = turn word ['-' | x <- word] n
+starman word n = turn word ['-' | x <- word] n    
 
+
+main :: IO ()
+main = do 
+       hFile <- openFile "dict.txt" ReadMode
+       contents <- hGetContents hFile
+       let lines = splitByChar contents '\n'
+       randonLine <- randomRIO(0,(length lines)-1)
+       let line = lines !! randonLine
+       attempts <- randomRIO(0,(length line)-1) 
+       starman line attempts
+       hClose hFile      
