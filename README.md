@@ -11,17 +11,17 @@
 </p>
 
 <p align="center">
-  <a href="#haskell-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#haskell-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-como-contribuir">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">License</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="Functional Programming" src="https://github.com/r33-code/omnistack11/blob/master/frontend/src/assets/bethehero.png" width="100%">
+  <img alt="Functional Programming" src="https://github.com/r33-code/" width="100%">
 </p>
 
 ## :rocket: Tecnologias
@@ -50,18 +50,18 @@ Para executar o projeto, será necessário instalar/usar os seguintes programas
 ## 🔖 Layout
 
 
-## 🤔 Como contribuir
+## 🤔 Contributing
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- Do a fork of this repository;
+- Create a branche with your feature: `git checkout -b my-feature`;
+- Do commit of your changes: `git commit -m 'feat: My new feature'`;
+- Do push for your branch: `git push origin my-feature`.
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+After your merge of your pull request was done, you can delete your branch.
 
-## :memo: Licença
+## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under MIT license. Read the file [LICENSE](LICENSE.md) for more details.
 
 ---
 
