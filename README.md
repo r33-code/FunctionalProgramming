@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Haskell Hands-on" src=".github/haskell.svg" width="200px" />
+    <img alt="Functional Programming Haskell" src=".github/haskell.svg" width="200px" />
 </h1>
 
 <h4 align="center">
