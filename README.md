@@ -2,9 +2,9 @@
     <img alt="Functional Programming Haskell" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/1920px-Haskell-Logo.svg.png" width="200px" />
 </h1>
 
-<h4 align="center">
+<h1 align="center">
   🚀 University og Glasgow: Functional Programming
-</h4>
+</h1>
 
 <p align="center">
    <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
