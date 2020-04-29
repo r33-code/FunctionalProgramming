@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  🚀 University og Glasgow: Functional Programming
+  🚀 University of Glasgow: Functional Programming
 </h1>
 
 <p align="center">
