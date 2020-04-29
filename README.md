@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Functional Programming Haskell" src="https://en.wikipedia.org/wiki/Haskell_(programming_language)#/media/File:Haskell-Logo.svg" width="200px" />
+    <img alt="Functional Programming Haskell" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/1920px-Haskell-Logo.svg.png" width="200px" />
 </h1>
 
 <h4 align="center">
